@@ -1,0 +1,59 @@
+{
+ "segments":[
+  {
+    "display_name":"logicalSwitch_st_1",
+    "subnets": [
+         {
+      "gateway_addresses": [ "172.16.0.1/22" ],
+      "prefix_len": 22,
+      "dhcp_ranges": [ "172.16.0.2-172.16.3.254" ]
+         }
+       ],
+       "_revision": 0
+      },
+  {
+    "display_name":"logicalSwitch_st_2",
+    "subnets": [
+         {
+      "gateway_addresses": [ "172.16.4.1/22" ],
+      "prefix_len": 22,
+      "dhcp_ranges": [ "172.16.4.2-172.16.7.254" ]
+         }
+       ],
+       "_revision": 0
+      },
+  {
+    "display_name":"logicalSwitch_st_3",
+    "subnets": [
+         {
+      "gateway_addresses": [ "172.16.8.1/22" ],
+      "prefix_len": 22,
+      "dhcp_ranges": [ "172.16.8.2-172.16.11.254" ]
+         }
+       ],
+       "_revision": 0
+      },
+  {
+    "display_name":"logicalSwitch_st_4",
+    "subnets": [
+         {
+      "gateway_addresses": [ "172.16.12.1/22" ],
+      "prefix_len": 22,
+      "dhcp_ranges": [ "172.16.12.2-172.16.15.254" ]
+         }
+       ],
+       "_revision": 0
+      },
+  {
+    "display_name":"logicalSwitch_st_5",
+    "subnets": [
+         {
+      "gateway_addresses": [ "172.16.16.1/22" ],
+      "prefix_len": 22,
+      "dhcp_ranges": [ "172.16.16.2-172.16.19.254" ]
+         }
+       ],
+       "_revision": 0
+      }
+    ]
+}
